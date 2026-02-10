@@ -1,0 +1,102 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #555;
+}
+
+.story-selector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px; /* Space between elements */
+    margin-bottom: 20px;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+#story-select {
+    padding: 8px;
+    min-width: 200px;
+}
+
+#load-story-button {
+    padding: 8px 15px;
+    cursor: pointer;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+#load-story-button:hover {
+    background-color: #4cae4c;
+}
+
+hr {
+    margin: 30px 0;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+#story-text {
+    margin-bottom: 25px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    min-height: 50px; /* Ensure it has some height even when empty */
+}
+
+#choices-container {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 10px; /* Space between buttons */
+}
+
+#choices-container button {
+    display: block; /* Make buttons take full width */
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #337ab7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-align: left; /* Align text left */
+    transition: background-color 0.2s ease;
+}
+
+#choices-container button:hover {
+    background-color: #286090;
+}
+
+.hidden {
+    display: none;
+}
+
+.error {
+    color: #d9534f; /* Red color for errors */
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f2dede;
+    border: 1px solid #ebccd1;
+    border-radius: 4px;
+    text-align: center;
+}

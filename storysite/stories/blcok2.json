@@ -1,0 +1,1668 @@
+{
+  "startNodeId": "start",
+  "nodes": {
+    "start": {
+      "text": "The rain drums a steady rhythm against the corrugated iron roof as you survey the clearing. You've been tasked with building a Beat Block House \u2013 a sturdy, modular shelter using repurposed metal sheets and reinforced timber. Before you lie a pile of Beat Blocks, a toolbox, and a partially assembled timber frame. A grizzled old builder, Silas, grunts, 'Don't waste time. Start with the foundation.' What do you do?",
+      "choices": [
+        {
+          "text": "Inspect the timber frame.",
+          "nextNodeId": "inspect_frame"
+        },
+        {
+          "text": "Gather more Beat Blocks.",
+          "nextNodeId": "gather_blocks"
+        },
+        {
+          "text": "Speak to Silas for advice.",
+          "nextNodeId": "talk_to_silas"
+        }
+      ],
+      "isEnding": false
+    },
+    "inspect_frame": {
+      "text": "The timber frame is surprisingly solid, though a few joints need reinforcing. You notice a critical beam is slightly warped. You grab your hammer and some timber braces. This will take time and careful work.",
+      "choices": [
+        {
+          "text": "Immediately begin reinforcing the beam.",
+          "nextNodeId": "inspect_frame_choice1"
+        },
+        {
+          "text": "Ignore the beam for now and focus on the other joints.",
+          "nextNodeId": "inspect_frame_choice2"
+        }
+      ],
+      "isEnding": false
+    },
+    "gather_blocks": {
+      "text": "You head out to the nearby scrap yard, rummaging through piles of corrugated iron. The rain is relentless, and the metal is cold and damp. You manage to collect a decent stack of Beat Blocks, but a stray dog starts barking aggressively.",
+      "choices": [
+        {
+          "text": "Try to shoo the dog away.",
+          "nextNodeId": "gather_blocks_choice1"
+        },
+        {
+          "text": "Continue gathering blocks, ignoring the dog.",
+          "nextNodeId": "gather_blocks_shout"
+        }
+      ],
+      "isEnding": false
+    },
+    "talk_to_silas": {
+      "text": "Silas eyes you with suspicion. 'The key is stability,' he rasps. 'Don't build it like a house. Build it like a fortress. Use cross-bracing, and don't be afraid to over-engineer.' He hands you a small, worn notebook filled with sketches.",
+      "choices": [
+        {
+          "text": "Study Silas's sketches carefully.",
+          "nextNodeId": "talk_to_silas_choice1"
+        },
+        {
+          "text": "Thank Silas and start building regardless.",
+          "nextNodeId": "talk_to_silas_hammer_investigation"
+        }
+      ],
+      "isEnding": false
+    },
+    "study_sketches": {
+      "text": "The sketches reveal a complex system of cross-bracing and angled supports. It's far more intricate than you initially thought. You feel a surge of confidence, but also a growing sense of the scale of the task.",
+      "choices": [
+        {
+          "text": "Begin constructing the frame according to Silas's designs.",
+          "nextNodeId": "study_sketches_choice1"
+        }
+      ],
+      "isEnding": false
+    },
+    "inspect_frame_choice1": {
+      "text": "You carefully wedge the timber braces into the warped beam, securing it with strong wooden pegs. It's slow work, but the beam feels significantly more stable. You spend another hour meticulously reinforcing the joints throughout the frame. You decide to take a break and examine the surrounding timber for any further issues.",
+      "choices": [
+        {
+          "text": "Continue reinforcing the frame.",
+          "nextNodeId": "inspect_frame_choice2"
+        },
+        {
+          "text": "Head to the toolshed to sharpen your tools.",
+          "nextNodeId": "toolshed_choice1"
+        }
+      ],
+      "isEnding": false
+    },
+    "inspect_frame_choice2": {
+      "text": "You continue to reinforce the frame, focusing on the areas around the warped beam. The rhythmic hammering and the scent of fresh-cut timber fill the air. As you work, you notice a small, dark space behind the frame \u2013 a crawlspace! It seems like a good place to store tools and materials.",
+      "choices": [
+        {
+          "text": "Investigate the crawlspace.",
+          "nextNodeId": "inspect_frame_choice2_choice1"
+        },
+        {
+          "text": "Return to reinforcing the main frame.",
+          "nextNodeId": "inspect_frame_choice2_choice2"
+        }
+      ],
+      "isEnding": false
+    },
+    "toolshed_choice1": {
+      "text": "The toolshed is a chaotic mess, but you find a new, sharp chisel and a sturdy measuring tape. The chisel will be invaluable for fine-tuning the frame, and the tape measure ensures accurate cuts. You return to the frame, feeling more prepared.",
+      "choices": [
+        {
+          "text": "Continue reinforcing the frame.",
+          "nextNodeId": "toolshed_choice1_choice1"
+        }
+      ],
+      "isEnding": false
+    },
+    "crawlspace_choice1": {
+      "text": "The crawlspace is damp and dusty, filled with discarded timber and old tools. You find a surprisingly large stash of nails and a partially disassembled ladder. This could be useful for reaching higher parts of the frame. You carefully bring the ladder back to the frame.",
+      "choices": [
+        {
+          "text": "Use the ladder to reach a high beam.",
+          "nextNodeId": "crawlspace_choice1_choice1"
+        }
+      ],
+      "isEnding": false
+    },
+    "ladder_choice1": {
+      "text": "You carefully ascend the ladder, reaching a section of the frame that was previously inaccessible. You notice a slight misalignment in the upper timbers. With a few adjustments, the frame is perfectly aligned. You descend, satisfied with your work. The house is taking shape!",
+      "choices": [
+        {
+          "text": "The build is progressing well. Time to start on the walls.",
+          "nextNodeId": "wall_start"
+        }
+      ],
+      "isEnding": true
+    },
+    "gather_blocks_choice1": {
+      "text": "You try to shoo the barking dog away, waving your arms. It doesn't seem to understand and continues to grow more agitated, circling you. Do you attempt to scare it with a loud shout, or try to quietly back away?",
+      "choices": [
+        {
+          "text": "Shout at the dog",
+          "nextNodeId": "gather_blocks_shout"
+        },
+        {
+          "text": "Quietly back away",
+          "nextNodeId": "gather_blocks_retreat"
+        }
+      ],
+      "isEnding": false
+    },
+    "gather_blocks_shout": {
+      "text": "Your shout seems to startle the dog, which yelps and runs off into the rain. You continue collecting Beat Blocks, feeling a little foolish but relieved. You manage to gather another 10 blocks. The rain continues to fall.",
+      "choices": [
+        {
+          "text": "Continue gathering blocks",
+          "nextNodeId": "gather_blocks_shout_choice1"
+        }
+      ],
+      "isEnding": false
+    },
+    "gather_blocks_retreat": {
+      "text": "You slowly back away, careful not to make any sudden movements. The dog watches you intently, but eventually loses interest and wanders off. You collect a few more blocks, but the rain is starting to soak you through.",
+      "choices": [
+        {
+          "text": "Continue gathering blocks",
+          "nextNodeId": "gather_blocks_retreat_choice1"
+        }
+      ],
+      "isEnding": false
+    },
+    "gather_blocks_continue": {
+      "text": "You've collected a total of 30 Beat Blocks. The scrap yard is becoming increasingly difficult to navigate in the rain. You decide to head back to your base to dry off and organize your supplies. You return to the base.",
+      "choices": [
+        {
+          "text": "Return to base",
+          "nextNodeId": "base_organized"
+        }
+      ],
+      "isEnding": true
+    },
+    "base_organized": {
+      "text": "You've organized your Beat Blocks and have a solid supply. You feel much more prepared to continue building your Beat Block house. THE END.",
+      "choices": [],
+      "isEnding": true
+    },
+    "talk_to_silas_choice1": {
+      "text": "You examine the notebook. The sketches are surprisingly detailed, focusing on diagonal bracing and reinforced corners. You notice a recurring symbol \u2013 a stylized hammer. 'Perhaps this is a clue,' you mutter to yourself.",
+      "choices": [
+        {
+          "text": "Investigate the hammer symbol further.",
+          "nextNodeId": "talk_to_silas_hammer_investigation"
+        },
+        {
+          "text": "Ignore the symbol and focus on the bracing techniques.",
+          "nextNodeId": "talk_to_silas_bracing_focus"
+        }
+      ],
+      "isEnding": false
+    },
+    "talk_to_silas_hammer_investigation": {
+      "text": "You search Silas's workshop, finding a small wooden box containing several identical hammers, each with a tiny, almost invisible notch carved into the handle. 'These must be related,' you think.",
+      "choices": [
+        {
+          "text": "Try to fit the hammers into the notches in the sketches.",
+          "nextNodeId": "talk_to_silas_hammer_investigation_choice1"
+        },
+        {
+          "text": "Return to Silas and ask about the hammers.",
+          "nextNodeId": "talk_to_silas_hammer_investigation_force"
+        }
+      ],
+      "isEnding": false
+    },
+    "talk_to_silas_bracing_focus": {
+      "text": "You spend the next hour meticulously studying Silas's sketches, attempting to replicate the bracing techniques. You begin to understand the importance of distributing stress effectively. You feel a surge of confidence.",
+      "choices": [
+        {
+          "text": "Begin constructing the house foundation, incorporating the bracing techniques.",
+          "nextNodeId": "talk_to_silas_bracing_focus_choice1"
+        },
+        {
+          "text": "Ask Silas for more detailed instructions.",
+          "nextNodeId": "talk_to_silas_bracing_focus_choice1_alt"
+        }
+      ],
+      "isEnding": false
+    },
+    "build_foundation": {
+      "text": "You start laying the foundation, meticulously adding cross-bracing and reinforcing the corners as Silas instructed. The structure feels remarkably stable.",
+      "choices": [
+        {
+          "text": "Continue building the foundation.",
+          "nextNodeId": "build_foundation_choice1"
+        },
+        {
+          "text": "End the day's work and return to Silas for feedback.",
+          "nextNodeId": "build_foundation_concrete_rush"
+        }
+      ],
+      "isEnding": false
+    },
+    "build_foundation_continue": {
+      "text": "Days turn into weeks, and you continue to build the foundation, guided by Silas's sketches and your growing understanding of structural integrity. The house is taking shape, a testament to Silas's wisdom.",
+      "choices": [
+        {
+          "text": "Continue building the walls.",
+          "nextNodeId": "build_foundation_continue_choice1"
+        },
+        {
+          "text": "The house is complete! (Ending).",
+          "nextNodeId": "build_foundation_continue_choice2"
+        }
+      ],
+      "isEnding": false
+    },
+    "ending_house_complete": {
+      "text": "You stand back and admire your creation \u2013 a remarkably sturdy and well-built Beat Block House. Silas nods approvingly. 'You've heeded my words,' he says. 'The key is not just building, but understanding.' THE END.",
+      "choices": [],
+      "isEnding": true
+    },
+    "study_sketches_choice1": {
+      "text": "You decide to focus on the lower levels of the structure, meticulously examining the connections between the angled supports and the main cross-braces. You spend the next hour carefully measuring and noting the angles, convinced a slight adjustment here could significantly strengthen the entire framework. You gather a collection of precisely cut timber pieces, ready to implement your changes.",
+      "choices": [
+        {
+          "text": "Continue with the lower-level reinforcement.",
+          "nextNodeId": "study_sketches_reinforce"
+        }
+      ],
+      "isEnding": false
+    },
+    "study_sketches_choice2": {
+      "text": "A nagging feeling tells you that Silas might have omitted crucial details. You decide to revisit his initial sketches, searching for any annotations or diagrams that might shed further light on the bracing system. You find a small, folded note tucked into the corner of one of the drawings \u2013 a hastily scribbled reminder about the importance of counter-thrusts.",
+      "choices": [
+        {
+          "text": "Investigate Silas's note further.",
+          "nextNodeId": "study_sketches_silas_note"
+        }
+      ],
+      "isEnding": false
+    },
+    "study_sketches_reinforce": {
+      "text": "You spend the remainder of the day painstakingly reinforcing the lower levels of the Beat Block House with the precisely cut timber. The structure feels noticeably sturdier, and you gain a deeper understanding of Silas's design. However, you realize you've only addressed a portion of the overall challenge.",
+      "choices": [
+        {
+          "text": "Move on to the upper levels of the structure.",
+          "nextNodeId": "study_sketches_reinforce_choice1"
+        }
+      ],
+      "isEnding": false
+    },
+    "study_sketches_upper_levels": {
+      "text": "The upper levels are even more complex, with a dizzying array of interwoven supports. You realize that a systematic approach is crucial. You decide to divide the work into smaller, more manageable sections, focusing on one area at a time.",
+      "choices": [
+        {
+          "text": "Begin reinforcing the upper-level supports.",
+          "nextNodeId": "study_sketches_upper_levels_choice1"
+        }
+      ],
+      "isEnding": false
+    },
+    "study_sketches_upper_reinforce": {
+      "text": "You dedicate the next several days to meticulously reinforcing the upper levels, working with a growing sense of urgency. The scale of the project is truly daunting, and you begin to question whether Silas fully grasped the magnitude of his undertaking. Despite your efforts, a critical support beam seems to be consistently under stress.",
+      "choices": [
+        {
+          "text": "Seek advice from Silas regarding the stressed beam.",
+          "nextNodeId": "start"
+        }
+      ],
+      "isEnding": true
+    },
+    "inspect_frame_choice2_choice1": {
+      "text": "You decide to investigate the crawlspace. Carefully removing more timber, you squeeze through the opening. It's surprisingly spacious, filled with dust and the faint scent of old wood. You spot a sturdy wooden chest tucked in a corner, and a pile of neatly stacked lumber.",
+      "choices": [
+        {
+          "text": "Open the chest.",
+          "nextNodeId": "inspect_chest_choice1"
+        },
+        {
+          "text": "Organize the lumber.",
+          "nextNodeId": "organize_lumber_choice1"
+        }
+      ],
+      "isEnding": false
+    },
+    "inspect_frame_choice2_choice2": {
+      "text": "You ignore the crawlspace for now, focusing on securing the frame. You reinforce the beam with extra bracing, feeling a significant improvement in the structure's stability. You realize you're running low on nails.",
+      "choices": [
+        {
+          "text": "Head to the tool shed to gather more nails.",
+          "nextNodeId": "tool_shed_choice1"
+        }
+      ],
+      "isEnding": false
+    },
+    "inspect_chest_choice1": {
+      "text": "The chest is locked. You try to pry it open, but the wood is stubbornly resistant. After a struggle, the lock breaks, revealing a collection of old surveying tools, a detailed map of the surrounding area, and a small, leather-bound journal.",
+      "choices": [
+        {
+          "text": "Examine the journal.",
+          "nextNodeId": "inspect_chest_choice1_choice1"
+        }
+      ],
+      "isEnding": false
+    },
+    "journal_choice1": {
+      "text": "The journal entries detail the previous owner's struggles building the house, including a warning about unstable ground near the south corner. There's a sketch of a potential drainage solution.",
+      "choices": [
+        {
+          "text": "Head to the south corner to investigate.",
+          "nextNodeId": "journal_choice1_choice1"
+        }
+      ],
+      "isEnding": false
+    },
+    "south_corner_choice1": {
+      "text": "As you approach the south corner, you notice a slight depression in the ground. The soil is damp and appears to be eroding. The journal's warning seems prescient.",
+      "choices": [
+        {
+          "text": "Begin digging a drainage ditch.",
+          "nextNodeId": "drainage_ditch_choice1"
+        }
+      ],
+      "isEnding": true
+    },
+    "drainage_ditch_choice1": {
+      "text": "You spend the afternoon digging a shallow ditch to divert water away from the foundation. It's hard work, but you feel you're addressing a potential problem. The house feels a little more secure.",
+      "choices": [
+        {
+          "text": "Continue reinforcing the frame.",
+          "nextNodeId": "inspect_frame_choice2"
+        }
+      ],
+      "isEnding": false
+    },
+    "toolshed_choice1_choice1": {
+      "text": "You decide to carefully examine the frame, using the new chisel to smooth out any rough edges. The frame is surprisingly stable, but you notice a slight warp in one of the longer beams. Do you:\n A) Attempt to correct the warp immediately?\n B) Ignore the warp and continue assembling the frame?",
+      "choices": [
+        {
+          "text": "Attempt to correct the warp",
+          "nextNodeId": "toolshed_choice1_choice1_a"
+        },
+        {
+          "text": "Ignore the warp and continue",
+          "nextNodeId": "toolshed_choice1_choice1_b"
+        }
+      ],
+      "isEnding": false
+    },
+    "toolshed_choice1_choice1_a": {
+      "text": "You carefully wedge smaller pieces of wood into the warp, applying pressure with the chisel. It's slow, painstaking work, but you manage to reduce the warp significantly. However, in the process, you accidentally split one of the thinner beams. The frame is now structurally weaker. Do you:\n A) Continue reinforcing the frame, accepting the weakened beam?\n B) Abandon this section and seek a replacement beam?",
+      "choices": [
+        {
+          "text": "Continue reinforcing the frame",
+          "nextNodeId": "build_rest_of_house"
+        },
+        {
+          "text": "Seek a replacement beam",
+          "nextNodeId": "fit_new_beam"
+        }
+      ],
+      "isEnding": false
+    },
+    "toolshed_choice1_choice1_a_choice1": {
+      "text": "You persevere, meticulously reinforcing the frame. The structure is now incredibly robust, but the added stress has caused the beam to completely fracture. The frame is now unusable. GAME OVER.",
+      "choices": [],
+      "isEnding": true
+    },
+    "toolshed_choice1_choice1_a_choice2": {
+      "text": "You search the toolshed for a suitable replacement beam. After a thorough search, you find a perfectly matched beam. You carefully install it, and the frame is restored to its original strength. You return to the frame, feeling confident in your work.",
+      "choices": [],
+      "isEnding": true
+    },
+    "toolshed_choice1_choice1_b": {
+      "text": "You decide the warp isn't worth the effort and continue assembling the frame. The frame is now complete, but you have a nagging feeling that you've compromised its long-term stability. You move on to the next stage of construction.",
+      "choices": [],
+      "isEnding": true
+    },
+    "crawlspace_choice1_choice1": {
+      "text": "You decide to use the ladder to inspect the upper portion of the frame. As you climb, the wood feels surprisingly solid, and you notice a small, dark opening near the top \u2013 a potential space for a window. Do you:\n A) Attempt to enlarge the opening?\n B) Continue to examine the frame for structural weaknesses?",
+      "choices": [
+        {
+          "text": "Attempt to enlarge the opening",
+          "nextNodeId": "crawlspace_choice1_choice1_a"
+        },
+        {
+          "text": "Continue to examine the frame",
+          "nextNodeId": "crawlspace_choice1_choice1_b"
+        }
+      ],
+      "isEnding": false
+    },
+    "crawlspace_choice1_choice1_a": {
+      "text": "Using a sturdy hammer and some of the nails, you carefully chip away at the wood around the opening. It's slow work, but after an hour, you've created a sizable hole \u2013 large enough to frame a window. You secure the edges with more nails. This will require glass later, but it's a significant step. You return to the frame.",
+      "choices": [
+        {
+          "text": "Return to the frame",
+          "nextNodeId": "crawlspace_choice1_choice1_a_choice1"
+        }
+      ],
+      "isEnding": false
+    },
+    "crawlspace_choice1_choice1_b": {
+      "text": "You meticulously run your hands along the frame, searching for any signs of rot or weakness. You discover a small, but concerning, section of warped wood near the base. It's not immediately critical, but it needs reinforcement. You gather some extra timber and nails to address this issue. You return to the frame.",
+      "choices": [
+        {
+          "text": "Return to the frame",
+          "nextNodeId": "crawlspace_choice1_choice1_b_choice1"
+        }
+      ],
+      "isEnding": false
+    },
+    "crawlspace_choice1_alt_path": {
+      "text": "Instead of focusing on the opening, you decide to meticulously clean the crawlspace, removing the accumulated dust and debris. This reveals a small, hidden compartment in the wall \u2013 containing a surprisingly well-preserved blueprint for the Beat Block House! You carefully unfold the blueprint. This could be invaluable.",
+      "choices": [
+        {
+          "text": "Examine the blueprint",
+          "nextNodeId": "blueprint_node"
+        }
+      ],
+      "isEnding": false
+    },
+    "blueprint_node": {
+      "text": "The blueprint details a complex system of soundproofing and acoustic chambers. It includes specific dimensions and materials \u2013 some of which you don't yet have. However, it provides a clear path for optimizing the house's sound quality. You carefully study the blueprint, making notes. You return to the frame.",
+      "choices": [
+        {
+          "text": "Return to the frame",
+          "nextNodeId": "blueprint_node_choice1"
+        }
+      ],
+      "isEnding": false
+    },
+    "gather_blocks_shout_choice1": {
+      "text": "You consider shouting again, but the rain is intensifying, and the thought of further startling the dog seems unwise. Instead, you continue to carefully collect the Beat Blocks, noticing a slightly different shade of blue in some of the stones. You manage to gather another 5 blocks. The rain continues to fall, and you begin to feel a chill.",
+      "choices": [
+        {
+          "text": "Head back to the main path.",
+          "nextNodeId": "gather_blocks_choice1"
+        },
+        {
+          "text": "Examine the different shades of blue more closely.",
+          "nextNodeId": "gather_blocks_shout_alt_path"
+        }
+      ],
+      "isEnding": false
+    },
+    "gather_blocks_shout_alt_path": {
+      "text": "You meticulously examine the Beat Blocks, noticing that some are a deeper, almost indigo blue, while others are a paler, sky blue. You carefully select 3 of the indigo blocks, believing they might be particularly resonant. The rain continues to fall, and you feel a growing sense of urgency to finish your task.",
+      "choices": [
+        {
+          "text": "Continue collecting blocks regardless of color.",
+          "nextNodeId": "gather_blocks_shout_alt_path_choice1"
+        },
+        {
+          "text": "Head back to the main path, feeling you've done enough for now.",
+          "nextNodeId": "gather_blocks_shout_alt_path_choice1_reinforce"
+        }
+      ],
+      "isEnding": false
+    },
+    "find_container": {
+      "text": "You search around the area, eventually discovering a large, hollowed-out log. It's perfect for storing the Beat Blocks! You carefully transfer all your collected stones into the log. The rain continues to fall, and you feel a sense of accomplishment.",
+      "choices": [
+        {
+          "text": "Head back to the main path.",
+          "nextNodeId": "gather_blocks_choice1"
+        }
+      ],
+      "isEnding": true
+    },
+    "gather_blocks_retreat_choice1": {
+      "text": "You decide to try and find some shelter. The rain is intensifying, and you spot a small overhang of rock further down the slope. It's cramped, but offers some protection.",
+      "choices": [
+        {
+          "text": "Investigate the overhang.",
+          "nextNodeId": "overhang_investigation"
+        },
+        {
+          "text": "Continue gathering blocks, braving the rain.",
+          "nextNodeId": "gather_blocks_retreat_brave"
+        }
+      ],
+      "isEnding": false
+    },
+    "overhang_investigation": {
+      "text": "The overhang is damp and filled with loose stones. You manage to collect a decent number of blocks while sheltering from the rain. However, you hear a rustling sound nearby...",
+      "choices": [
+        {
+          "text": "Investigate the rustling sound.",
+          "nextNodeId": "overhang_investigation_choice1"
+        },
+        {
+          "text": "Ignore the sound and continue collecting blocks.",
+          "nextNodeId": "overhang_investigation_examine_horseshoe"
+        }
+      ],
+      "isEnding": false
+    },
+    "rustle_investigation": {
+      "text": "A small, startled rabbit darts out from behind the rocks! It freezes, then quickly disappears. You feel a surge of adrenaline, but also a sense of accomplishment.",
+      "choices": [
+        {
+          "text": "Continue investigating the overhang.",
+          "nextNodeId": "rustle_investigation_choice1"
+        },
+        {
+          "text": "Give up on the overhang and return to the main slope.",
+          "nextNodeId": "trail_follow"
+        }
+      ],
+      "isEnding": false
+    },
+    "overhang_investigation_2": {
+      "text": "You carefully examine the area around the overhang. You find a small, smooth stone that might be useful for building. The rain continues to fall.",
+      "choices": [
+        {
+          "text": "Continue collecting blocks in the overhang.",
+          "nextNodeId": "overhang_investigation_2_choice1"
+        },
+        {
+          "text": "Abandon the overhang and return to the main slope.",
+          "nextNodeId": "overhang_investigation_2_crevice"
+        }
+      ],
+      "isEnding": false
+    },
+    "overhang_collect_2": {
+      "text": "You've gathered a good supply of blocks from the overhang, but the rain is becoming unbearable. You decide to head back to the main slope.",
+      "choices": [
+        {
+          "text": "Return to the main slope.",
+          "nextNodeId": "overhang_collect_2_choice1"
+        }
+      ],
+      "isEnding": false
+    },
+    "gather_blocks_retreat_brave": {
+      "text": "You stubbornly continue gathering blocks, ignoring the relentless rain. You manage to collect a few more, but your clothes are soaked and you're shivering.",
+      "choices": [
+        {
+          "text": "Give up and return to the main slope.",
+          "nextNodeId": "gather_blocks_retreat_brave_choice1"
+        }
+      ],
+      "isEnding": false
+    },
+    "talk_to_silas_hammer_investigation_choice1": {
+      "text": "You carefully examine the hammers. The notches are incredibly precise. It seems almost\u2026 deliberate. Do you try to force the hammers into the wood, or do you attempt to find a way to measure the notches?",
+      "choices": [
+        {
+          "text": "Try to force the hammers into the wood.",
+          "nextNodeId": "talk_to_silas_hammer_investigation_force"
+        },
+        {
+          "text": "Attempt to measure the notches.",
+          "nextNodeId": "talk_to_silas_hammer_investigation_measure"
+        }
+      ],
+      "isEnding": false
+    },
+    "talk_to_silas_hammer_investigation_force": {
+      "text": "You jam one of the hammers into a piece of scrap wood. It doesn't fit. You try another, and another. Each time, the hammer resists, and you feel a slight vibration in the wood. Suddenly, a small section of the wood splinters, revealing a hidden cavity. Inside, you find a rolled-up piece of parchment.",
+      "choices": [
+        {
+          "text": "Examine the parchment.",
+          "nextNodeId": "talk_to_silas_hammer_investigation_parchment"
+        },
+        {
+          "text": "Give up on forcing the hammers.",
+          "nextNodeId": "talk_to_silas_hammer_investigation_choice1"
+        }
+      ],
+      "isEnding": false
+    },
+    "talk_to_silas_hammer_investigation_measure": {
+      "text": "Using a small ruler, you meticulously measure the notches. They are all exactly 1/8 inch wide and 1/4 inch deep. This suggests a specific pattern. You notice a faint symbol etched into the wood near where you're measuring \u2013 a stylized hammer.",
+      "choices": [
+        {
+          "text": "Search for more symbols.",
+          "nextNodeId": "talk_to_silas_hammer_investigation_symbol_search"
+        },
+        {
+          "text": "Return to Silas to discuss your findings.",
+          "nextNodeId": "talk_to_silas_hammer_investigation_choice1"
+        }
+      ],
+      "isEnding": false
+    },
+    "talk_to_silas_hammer_investigation_symbol_search": {
+      "text": "You scan the workshop, looking for more instances of the hammer symbol. You find it repeated on a small, locked chest tucked away in a corner. The chest is made of dark wood and appears very old.",
+      "choices": [
+        {
+          "text": "Try to open the chest.",
+          "nextNodeId": "talk_to_silas_hammer_investigation_chest_open"
+        },
+        {
+          "text": "Ignore the chest and return to Silas.",
+          "nextNodeId": "talk_to_silas_hammer_investigation_choice1"
+        }
+      ],
+      "isEnding": false
+    },
+    "talk_to_silas_hammer_investigation_chest_open": {
+      "text": "You try to force the chest open, but it's firmly locked. You notice a small keyhole. Perhaps the hammers are related to unlocking it. You realize you have one of the hammers in your hand...",
+      "choices": [
+        {
+          "text": "Try to use the hammer to unlock the chest.",
+          "nextNodeId": "talk_to_silas_hammer_investigation_chest_unlock"
+        },
+        {
+          "text": "Give up and return to Silas.",
+          "nextNodeId": "talk_to_silas_hammer_investigation_choice1"
+        }
+      ],
+      "isEnding": false
+    },
+    "talk_to_silas_hammer_investigation_chest_unlock": {
+      "text": "You carefully insert the hammer into the keyhole. With a satisfying click, the chest springs open! Inside, you find a blueprint for a complex, interlocking block system \u2013 the foundation of the Beat Block House.",
+      "choices": [
+        {
+          "text": "Examine the blueprint closely.",
+          "nextNodeId": "talk_to_silas_hammer_investigation_blueprint_examine"
+        },
+        {
+          "text": "The End. You've discovered the secret to building the Beat Block House!",
+          "nextNodeId": "ending_beat_block_house"
+        }
+      ],
+      "isEnding": true
+    },
+    "ending_beat_block_house": {
+      "text": "You have successfully deciphered Silas's secrets and gained the knowledge to build the Beat Block House! The rhythmic patterns of the blocks resonate with you, and you feel a deep connection to the project. The End.",
+      "choices": [],
+      "isEnding": true
+    },
+    "talk_to_silas_bracing_focus_choice1": {
+      "text": "You decide to immediately test your understanding by attempting to reinforce a section of the wall with a particularly weak joint. You carefully apply the bracing techniques Silas described, meticulously ensuring even stress distribution. The joint feels noticeably stronger.",
+      "choices": [
+        {
+          "text": "Continue reinforcing the wall.",
+          "nextNodeId": "talk_to_silas_bracing_focus_choice1_alt"
+        },
+        {
+          "text": "Document your findings and return to Silas for feedback.",
+          "nextNodeId": "talk_to_silas_bracing_focus"
+        }
+      ],
+      "isEnding": false
+    },
+    "talk_to_silas_bracing_focus_choice1_alt": {
+      "text": "You build a small, temporary bracing structure to test the theory. It holds surprisingly well, confirming your grasp of the principles. A small smile spreads across your face \u2013 you're beginning to truly understand.",
+      "choices": [
+        {
+          "text": "Move on to reinforcing a larger section of the wall.",
+          "nextNodeId": "talk_to_silas_bracing_focus_choice2"
+        },
+        {
+          "text": "Reflect on the experience and consider the long-term implications of bracing.",
+          "nextNodeId": "talk_to_silas_bracing_focus_reflection"
+        }
+      ],
+      "isEnding": false
+    },
+    "talk_to_silas_bracing_focus_reflection": {
+      "text": "You spend some time contemplating the significance of bracing \u2013 not just for structural integrity, but for resilience and adaptability. Silas appears and nods approvingly. 'It's not just about strength,' he says, 'it's about anticipating and managing stress.'",
+      "choices": [
+        {
+          "text": "Begin reinforcing a more substantial section of the wall.",
+          "nextNodeId": "talk_to_silas_bracing_focus_choice2"
+        },
+        {
+          "text": "Seek out additional materials to improve your bracing techniques.",
+          "nextNodeId": "talk_to_silas_materials"
+        }
+      ],
+      "isEnding": false
+    },
+    "talk_to_silas_bracing_focus_choice2": {
+      "text": "You confidently move on to reinforcing a larger section of the wall, applying your newfound knowledge with precision. The process is smoother and more efficient than before.",
+      "choices": [
+        {
+          "text": "Continue reinforcing the wall, focusing on detail.",
+          "nextNodeId": "talk_to_silas_bracing_focus_choice3"
+        },
+        {
+          "text": "Take a break and rest.",
+          "nextNodeId": "talk_to_silas_rest"
+        }
+      ],
+      "isEnding": false
+    },
+    "talk_to_silas_bracing_focus_choice3": {
+      "text": "You meticulously reinforce a large section of the wall, utilizing all the techniques Silas taught you. The wall feels incredibly solid and stable.",
+      "choices": [
+        {
+          "text": "Inspect the wall for any potential weaknesses.",
+          "nextNodeId": "talk_to_silas_inspection"
+        },
+        {
+          "text": "Begin constructing the main structure of the house.",
+          "nextNodeId": "build_house_foundation"
+        }
+      ],
+      "isEnding": true
+    },
+    "talk_to_silas_inspection": {
+      "text": "Silas examines your work and gives a satisfied nod. 'Excellent,' he says. 'You've truly grasped the core principles. Now, let's move on to the next stage.'",
+      "choices": [],
+      "isEnding": true
+    },
+    "build_foundation_choice1": {
+      "text": "You decide to speed up the process, adding a layer of quick-setting concrete. Silas would disapprove, but the house needs to be weatherproof quickly. The structure feels slightly less robust, but you've made significant progress.",
+      "choices": [
+        {
+          "text": "Continue with the quick-setting concrete.",
+          "nextNodeId": "build_foundation_concrete_rush"
+        },
+        {
+          "text": "Revert to Silas's method, carefully reinforcing each layer.",
+          "nextNodeId": "build_foundation_silas_method"
+        }
+      ],
+      "isEnding": false
+    },
+    "build_foundation_concrete_rush": {
+      "text": "The quick-setting concrete works, but a hairline crack appears near a corner. You quickly patch it, hoping it won't spread. The foundation is now mostly complete, but you've introduced a potential weakness. You notice a small pile of shimmering stones nearby \u2013 perhaps a clue?",
+      "choices": [
+        {
+          "text": "Ignore the crack and continue building walls.",
+          "nextNodeId": "build_walls_quick"
+        },
+        {
+          "text": "Investigate the shimmering stones.",
+          "nextNodeId": "investigate_stones"
+        }
+      ],
+      "isEnding": false
+    },
+    "investigate_stones": {
+      "text": "The shimmering stones are fragments of a rare 'Echo Stone,' known for amplifying vibrations. Silas warned against using materials that could destabilize a structure. You carefully remove the stones, feeling a slight tremor beneath your feet. The foundation feels noticeably weaker.",
+      "choices": [
+        {
+          "text": "Replace the Echo Stones with regular stone.",
+          "nextNodeId": "build_foundation_stone_replacement"
+        },
+        {
+          "text": "Accept the weakened foundation and proceed with the walls.",
+          "nextNodeId": "build_walls_weakened"
+        }
+      ],
+      "isEnding": false
+    },
+    "build_foundation_stone_replacement": {
+      "text": "You replace the Echo Stones with regular stone, meticulously ensuring a solid connection. The tremor ceases, and the foundation feels stable again. You've learned a valuable lesson about respecting Silas's methods.",
+      "choices": [
+        {
+          "text": "Proceed to build the walls.",
+          "nextNodeId": "build_walls_normal"
+        }
+      ],
+      "isEnding": true
+    },
+    "build_walls_normal": {
+      "text": "You begin constructing the walls, carefully following Silas's instructions. The house is taking shape, and you feel a sense of accomplishment.",
+      "choices": [
+        {
+          "text": "Continue building the walls.",
+          "nextNodeId": "build_walls_continue"
+        }
+      ],
+      "isEnding": true
+    },
+    "build_foundation_continue_choice1": {
+      "text": "You decide to reinforce the eastern corner of the foundation with extra timber, anticipating potential ground movement. Silas nods approvingly, adding it to his sketches. The house feels even more solid.",
+      "choices": [
+        {
+          "text": "Continue building the walls.",
+          "nextNodeId": "build_walls_start"
+        }
+      ],
+      "isEnding": false
+    },
+    "build_foundation_continue_choice2": {
+      "text": "A sudden rainstorm begins, soaking the exposed earth. You quickly cover the foundation with tarpaulins, worried about erosion. Silas suggests incorporating drainage channels into the design.",
+      "choices": [
+        {
+          "text": "Implement Silas's drainage suggestion.",
+          "nextNodeId": "silas_drainage_design"
+        }
+      ],
+      "isEnding": false
+    },
+    "build_foundation_continue_alt_path": {
+      "text": "Lost in thought, you meticulously check every measurement, ensuring perfect alignment. A sense of quiet satisfaction washes over you. The foundation is truly a marvel of engineering.",
+      "choices": [
+        {
+          "text": "Move on to constructing the walls.",
+          "nextNodeId": "build_walls_start"
+        }
+      ],
+      "isEnding": false
+    },
+    "silas_drainage_design": {
+      "text": "Silas explains the importance of diverting water away from the foundation. You spend the day digging channels and installing permeable paving stones. The house is now prepared for any weather.",
+      "choices": [
+        {
+          "text": "Continue building the walls.",
+          "nextNodeId": "build_walls_start"
+        }
+      ],
+      "isEnding": false
+    },
+    "build_walls_start": {
+      "text": "With the foundation complete, you turn your attention to the walls. The air is filled with the scent of freshly cut timber and the rhythmic hammering of nails. This is where the true shape of the Beat Block House begins to emerge.",
+      "choices": [
+        {
+          "text": "Start building the walls.",
+          "nextNodeId": "build_walls_step1"
+        }
+      ],
+      "isEnding": false
+    },
+    "study_sketches_reinforce_choice1": {
+      "text": "You consider Silas's notes again, focusing on the upper levels. He seems to have deliberately left them less detailed, perhaps anticipating a more complex build. Do you:\n\n1.  Attempt to extrapolate the design for the upper levels based on the lower levels?\n2.  Seek out additional materials to better understand the intended construction techniques?",
+      "choices": [
+        {
+          "text": "Attempt to extrapolate the design",
+          "nextNodeId": "study_sketches_extrapolate"
+        },
+        {
+          "text": "Seek out additional materials",
+          "nextNodeId": "study_sketches_materials"
+        }
+      ],
+      "isEnding": false
+    },
+    "study_sketches_extrapolate": {
+      "text": "You meticulously study the reinforced lower levels, trying to deduce the shape and purpose of the upper sections. It's a frustrating process, filled with educated guesses and the nagging feeling that you're missing something crucial. After several hours, you've sketched a rough approximation of the upper levels \u2013 a series of interlocking, curved timber supports. You realize this might be the key to the house's stability. However, you're still unsure if it aligns with Silas's original intent. ",
+      "choices": [
+        {
+          "text": "Proceed with building the extrapolated design",
+          "nextNodeId": "study_sketches_build_extrapolate"
+        },
+        {
+          "text": "Re-examine Silas's original sketches for further clues",
+          "nextNodeId": "study_sketches_reexamine"
+        }
+      ],
+      "isEnding": false
+    },
+    "study_sketches_reexamine": {
+      "text": "A closer inspection of Silas's notes reveals a cryptic annotation: 'The curve is not merely aesthetic; it dictates the flow of resonant energy.' This suggests a deeper purpose to the upper levels' design. You feel a renewed sense of urgency and a growing suspicion that you're missing a fundamental element of the house's function. ",
+      "choices": [
+        {
+          "text": "Immediately begin constructing the upper levels, prioritizing the curve",
+          "nextNodeId": "study_sketches_build_curve"
+        },
+        {
+          "text": "Consult with the local villagers for insights into resonant energy",
+          "nextNodeId": "study_sketches_consult_villagers"
+        }
+      ],
+      "isEnding": false
+    },
+    "study_sketches_build_curve": {
+      "text": "You begin constructing the upper levels, meticulously following your extrapolated design. The curved timber supports are surprisingly difficult to align, and you realize Silas's design was far more complex than you initially thought. You've made significant progress, but you're starting to doubt the accuracy of your interpretation.",
+      "choices": [
+        {
+          "text": "Continue building, hoping for a breakthrough",
+          "nextNodeId": "study_sketches_build_curve_continue"
+        },
+        {
+          "text": "Abandon the extrapolated design and return to Silas's original sketches",
+          "nextNodeId": "study_sketches_reinforce"
+        }
+      ],
+      "isEnding": false
+    },
+    "study_sketches_build_curve_continue": {
+      "text": "Despite the challenges, you persevere, driven by a conviction that you're on the right track. After a grueling day, you complete the upper levels. The house feels\u2026 different. A subtle hum vibrates through the structure, and you sense a strange energy emanating from the curved timber supports. You've successfully built the Beat Block House, but at what cost?",
+      "choices": [
+        {
+          "text": "Explore the house further, seeking to understand the energy",
+          "nextNodeId": "ending_house_energy"
+        },
+        {
+          "text": "Leave the house and seek guidance from a wise elder",
+          "nextNodeId": "ending_seek_wisdom"
+        }
+      ],
+      "isEnding": true
+    },
+    "ending_house_energy": {
+      "text": "You delve deeper into the house's energy, discovering that it's linked to the surrounding landscape. The Beat Block House isn't just a shelter; it's a conduit, amplifying and channeling natural energies. You've unlocked a powerful secret, but you're now responsible for safeguarding this delicate balance. THE END.",
+      "choices": [],
+      "isEnding": true
+    },
+    "ending_seek_wisdom": {
+      "text": "You travel to the nearest village and seek the counsel of an ancient elder. He reveals that Silas built the Beat Block House to harmonize with the land, creating a sanctuary for those attuned to the earth's rhythms. You've learned a valuable lesson about respecting the natural world. THE END.",
+      "choices": [],
+      "isEnding": true
+    },
+    "study_sketches_upper_levels_choice1": {
+      "text": "You decide to tackle the western support beam first. It's a particularly intricate weave of timber and rope. As you examine it, you notice a small, almost hidden compartment built into the structure. Do you investigate the compartment, or continue reinforcing the beam?",
+      "choices": [
+        {
+          "text": "Investigate the compartment",
+          "nextNodeId": "study_sketches_compartment_discovery"
+        },
+        {
+          "text": "Continue reinforcing the beam",
+          "nextNodeId": "study_sketches_upper_levels_reinforce_beam"
+        }
+      ],
+      "isEnding": false
+    },
+    "study_sketches_compartment_discovery": {
+      "text": "The compartment contains a meticulously drawn schematic \u2013 a revised design for the entire house, incorporating several previously overlooked structural improvements. It also includes a small, sealed pouch filled with polished river stones. This seems\u2026significant. Do you study the schematic, or examine the stones?",
+      "choices": [
+        {
+          "text": "Study the schematic",
+          "nextNodeId": "study_sketches_schematic_analysis"
+        },
+        {
+          "text": "Examine the stones",
+          "nextNodeId": "study_sketches_stones_analysis"
+        }
+      ],
+      "isEnding": false
+    },
+    "study_sketches_stones_analysis": {
+      "text": "The river stones are unusually smooth and warm to the touch. As you hold them, you have a sudden, vivid image: Silas, years ago, carefully selecting these stones for their resonance \u2013 a way to detect structural weaknesses. This reinforces your belief in his genius. You feel a surge of confidence. You finish reinforcing the beam, feeling more secure in your understanding of the house's design. You return to the main study area.",
+      "choices": [
+        {
+          "text": "Return to the main study area",
+          "nextNodeId": "study_sketches_main_study"
+        }
+      ],
+      "isEnding": true
+    },
+    "study_sketches_main_study": {
+      "text": "You return to the main study, feeling a renewed sense of purpose. Silas is there, observing your progress. He nods approvingly. 'Excellent work,' he says. 'Now, let's move on to the eastern wing\u2026'",
+      "choices": [
+        {
+          "text": "Proceed to the eastern wing",
+          "nextNodeId": "study_sketches_eastern_wing"
+        }
+      ],
+      "isEnding": false
+    },
+    "study_sketches_eastern_wing": {
+      "text": "The eastern wing is even more challenging, with a complex series of angled supports. You realize you need a different approach. You decide to focus on creating a temporary scaffolding system to allow you to work more effectively. You begin constructing a basic framework. This is a significant undertaking...",
+      "choices": [],
+      "isEnding": false
+    },
+    "inspect_chest_choice1_choice1": {
+      "text": "You carefully examine the map. It depicts the surrounding area, but with several landmarks marked with strange symbols. You notice a small, circled area labeled 'Whispering Falls'. Do you:\n1. Study the map more closely?\n2. Take the map and the surveying tools and head towards Whispering Falls?",
+      "choices": [
+        {
+          "text": "Study the map more closely",
+          "nextNodeId": "inspect_map_choice1"
+        },
+        {
+          "text": "Take the map and the surveying tools and head towards Whispering Falls",
+          "nextNodeId": "whispering_falls_choice1"
+        }
+      ],
+      "isEnding": false
+    },
+    "inspect_map_choice1": {
+      "text": "The symbols on the map seem to represent constellations. You realize they align with the night sky. You spend an hour deciphering the map, discovering a hidden path leading to a forgotten shrine. Do you:\n1. Follow the hidden path?\n2. Abandon the map and head towards Whispering Falls?",
+      "choices": [
+        {
+          "text": "Follow the hidden path",
+          "nextNodeId": "hidden_path_choice1"
+        },
+        {
+          "text": "Abandon the map and head towards Whispering Falls",
+          "nextNodeId": "whispering_falls_choice1"
+        }
+      ],
+      "isEnding": false
+    },
+    "whispering_falls_choice1": {
+      "text": "You pack up the surveying tools and the map and set off towards Whispering Falls. The journey is arduous, through dense undergrowth and across a rocky stream. After several hours, you arrive at a beautiful waterfall, shrouded in mist. You notice a small cave hidden behind the cascading water. Do you:\n1. Investigate the cave?\n2. Set up camp near the falls and study the map further?",
+      "choices": [
+        {
+          "text": "Investigate the cave",
+          "nextNodeId": "whispering_falls_cave_choice1"
+        },
+        {
+          "text": "Set up camp near the falls and study the map further",
+          "nextNodeId": "whispering_falls_camp_choice1"
+        }
+      ],
+      "isEnding": false
+    },
+    "whispering_falls_cave_choice1": {
+      "text": "The cave is damp and cool. Inside, you find a skeleton clutching a tarnished silver compass. The compass needle spins wildly, pointing in no particular direction. You also find a small, wooden box. Do you:\n1. Open the wooden box?\n2. Leave the cave and return to camp?",
+      "choices": [
+        {
+          "text": "Open the wooden box",
+          "nextNodeId": "whispering_falls_cave_box_choice1"
+        },
+        {
+          "text": "Leave the cave and return to camp",
+          "nextNodeId": "whispering_falls_camp_choice1"
+        }
+      ],
+      "isEnding": false
+    },
+    "whispering_falls_camp_choice1": {
+      "text": "You set up camp near the falls, enjoying the soothing sound of the water. As you study the map, you realize the symbols correspond to ancient druid markings. You feel a strange connection to the land. Suddenly, you hear a rustling in the bushes...",
+      "choices": [],
+      "isEnding": false
+    },
+    "whispering_falls_cave_box_choice1": {
+      "text": "Inside the wooden box, you find a single, perfectly preserved raven feather and a cryptic note: 'The stone remembers'.",
+      "choices": [],
+      "isEnding": true
+    },
+    "journal_choice1_choice1": {
+      "text": "You carefully examine the sketch. It depicts a series of angled trenches leading away from the south corner, designed to divert water. Below the sketch, a hastily scribbled note reads: 'Ground is shifting. Dig deep, or it will swallow you.'",
+      "choices": [
+        {
+          "text": "Investigate the south corner immediately.",
+          "nextNodeId": "south_corner_investigation"
+        },
+        {
+          "text": "Ignore the warning and begin constructing the drainage trenches as shown.",
+          "nextNodeId": "drainage_construction"
+        }
+      ],
+      "isEnding": false
+    },
+    "south_corner_investigation": {
+      "text": "You head towards the south corner, the ground feeling noticeably softer beneath your feet. As you approach, you notice a subtle, almost imperceptible slope. A small section of the earth gives way with a soft rumble, revealing dark, damp soil. The air smells strongly of decaying vegetation.",
+      "choices": [
+        {
+          "text": "Attempt to dig a small test hole to assess the ground stability.",
+          "nextNodeId": "test_hole_dig"
+        },
+        {
+          "text": "Retreat and reconsider the drainage plan.",
+          "nextNodeId": "journal_choice1"
+        }
+      ],
+      "isEnding": false
+    },
+    "test_hole_dig": {
+      "text": "You begin digging a small hole, carefully widening the opening. Within minutes, the earth collapses completely, revealing a large cavity filled with water. The water rushes in, quickly flooding your boots. You realize the ground is far more unstable than the sketch suggests.",
+      "choices": [
+        {
+          "text": "Abandon the drainage project and focus on reinforcing the foundation.",
+          "nextNodeId": "foundation_reinforcement"
+        }
+      ],
+      "isEnding": true
+    },
+    "foundation_reinforcement": {
+      "text": "Realizing the drainage plan is a lost cause, you decide to prioritize the house's structural integrity. You begin reinforcing the foundation with large, treated timbers, hoping to stabilize the ground.",
+      "choices": [
+        {
+          "text": "Continue reinforcing the foundation.",
+          "nextNodeId": "foundation_reinforcement_choice1"
+        }
+      ],
+      "isEnding": true
+    },
+    "foundation_reinforcement_choice1": {
+      "text": "Days turn into weeks as you tirelessly reinforce the foundation. The house remains standing, a testament to your persistence, but the unsettling feeling of shifting ground never truly disappears.",
+      "choices": [
+        {
+          "text": "The End.",
+          "nextNodeId": "ending_node_id"
+        }
+      ],
+      "isEnding": true
+    },
+    "ending_node_id": {
+      "text": "Years pass. The Beat Block House stands, weathered but resilient. You never fully solved the problem of the unstable ground, but you built something lasting.",
+      "choices": [],
+      "isEnding": true
+    },
+    "build_rest_of_house": {
+      "text": "Ignoring the compromised section, you focus on building the remaining parts of the house. The work proceeds smoothly, and you quickly complete the structure. (Experience +2).",
+      "choices": [
+        {
+          "text": "Inspect the completed house.",
+          "nextNodeId": "inspect_finished_house"
+        }
+      ],
+      "isEnding": false
+    },
+    "fit_new_beam": {
+      "text": "You carefully fit the new beam into the frame. It's a tight fit, and you have to use considerable force. The beam splinters slightly, and the frame is now even more unstable. (Experience -2).",
+      "choices": [
+        {
+          "text": "Reinforce the entire frame.",
+          "nextNodeId": "reinforce_frame"
+        }
+      ],
+      "isEnding": false
+    },
+    "reinforce_frame": {
+      "text": "You spend the next few hours reinforcing the entire frame, adding extra supports and bracing. The house is now structurally sound, but you've exhausted your resources for this section. (Experience +1).",
+      "choices": [
+        {
+          "text": "Move on to the next stage of construction.",
+          "nextNodeId": "next_construction_stage"
+        }
+      ],
+      "isEnding": true
+    },
+    "next_construction_stage": {
+      "text": "You've completed the basic frame. Now you must begin adding the walls and roofing. (Game Over - You've successfully built the foundation of your Beat Block House!)",
+      "choices": [],
+      "isEnding": true
+    },
+    "inspect_finished_house": {
+      "text": "You carefully examine the completed house. It's a sturdy, if somewhat rustic, structure. You've successfully built your Beat Block House! (Game Over - You've successfully built your Beat Block House!)",
+      "choices": [],
+      "isEnding": true
+    },
+    "crawlspace_choice1_choice1_a_choice1": {
+      "text": "You consider your options. You could try to reinforce the frame with more nails, hoping to prevent future collapses. Or, you could venture deeper into the crawlspace, hoping to find a more stable section of the wall to incorporate into the window frame.  The air grows noticeably cooler and damper as you contemplate your next move.",
+      "choices": [
+        {
+          "text": "Reinforce the Frame",
+          "nextNodeId": "crawlspace_choice1_choice1_a_choice1_reinforce"
+        },
+        {
+          "text": "Venture Deeper",
+          "nextNodeId": "crawlspace_choice1_choice1_a_choice1_deeper"
+        }
+      ],
+      "isEnding": false
+    },
+    "crawlspace_choice1_choice1_a_choice1_reinforce": {
+      "text": "You spend another hour meticulously reinforcing the frame with extra nails and small wooden braces. The hole remains, but it's now significantly sturdier. You've bought yourself some time, but the underlying instability of the crawlspace remains a concern. You return to the frame.",
+      "choices": [
+        {
+          "text": "Inspect the Frame Again",
+          "nextNodeId": "crawlspace_choice1_choice1_a"
+        }
+      ],
+      "isEnding": false
+    },
+    "crawlspace_choice1_choice1_a_choice1_deeper": {
+      "text": "Ignoring the damp chill, you push further into the crawlspace. The space narrows considerably, and you have to crawl on your hands and knees. After a tense few minutes, you find a section of the wall that appears to be made of solid, unheaved stone. It's rough and uneven, but it seems remarkably stable. You carefully begin to integrate this section into your window frame. It's a slow, painstaking process, but you're confident this will provide a much stronger foundation. You return to the frame.",
+      "choices": [
+        {
+          "text": "Inspect the Frame Again",
+          "nextNodeId": "crawlspace_choice1_choice1_a"
+        }
+      ],
+      "isEnding": false
+    },
+    "crawlspace_choice1_choice1_a_alt_path": {
+      "text": "Driven by a sudden impulse, you decide to search for a source of light in the crawlspace. You fumble around in the darkness, eventually discovering a small, moss-covered stone. As you brush away the moss, you reveal a shallow indentation \u2013 a small, perfectly formed stone lantern! It's remarkably well-preserved. You carefully clear away the remaining debris. You return to the frame.",
+      "choices": [
+        {
+          "text": "Inspect the Frame Again",
+          "nextNodeId": "crawlspace_choice1_choice1_a"
+        }
+      ],
+      "isEnding": false
+    },
+    "crawlspace_choice1_choice1_a_ending_lantern": {
+      "text": "As you examine the lantern, a faint, ethereal glow emanates from within. The air grows warmer, and you feel a sense of peace and tranquility. The lantern seems to pulse with a gentle energy. You realize you've stumbled upon something truly special \u2013 a forgotten relic of a bygone era. You carefully place the lantern on a small stone pedestal within the window frame, creating a unique and beautiful focal point. The window, now framed by stone and imbued with a touch of magic, is complete. THE END.",
+      "choices": [],
+      "isEnding": true
+    },
+    "crawlspace_choice1_choice1_b_choice1": {
+      "text": "You carefully apply the timber and nails, reinforcing the weakened section of the frame. It's a solid repair, though you realize you've used more materials than strictly necessary. Do you:\nA) Continue reinforcing the entire base of the frame, ensuring maximum stability?\nB) Decide the repair is sufficient and move on to the next stage of construction?",
+      "choices": [
+        {
+          "text": "A) Reinforce the entire base.",
+          "nextNodeId": "crawlspace_choice1_choice1_b_choice1_a"
+        },
+        {
+          "text": "B) The repair is sufficient.",
+          "nextNodeId": "crawlspace_choice1_choice1_b_choice1_b"
+        }
+      ],
+      "isEnding": false
+    },
+    "crawlspace_choice1_choice1_b_choice1_a": {
+      "text": "You meticulously reinforce the entire base of the frame, adding extra bracing and timber. The structure feels significantly stronger, but you've exhausted a considerable amount of your initial supplies. You move on to the next stage of construction.",
+      "choices": [
+        {
+          "text": "Continue to the next stage.",
+          "nextNodeId": "crawlspace_choice1_choice1_b_alt_path"
+        }
+      ],
+      "isEnding": false
+    },
+    "crawlspace_choice1_choice1_b_alt_path": {
+      "text": "With the base reinforced, you turn your attention to the walls. The frame is now ready for cladding. You begin selecting the appropriate materials for the exterior walls. The choice is yours \u2013 rough-hewn logs or carefully crafted planks?",
+      "choices": [
+        {
+          "text": "Rough-hewn logs.",
+          "nextNodeId": "crawlspace_choice1_choice1_b_alt_path_a"
+        },
+        {
+          "text": "Carefully crafted planks.",
+          "nextNodeId": "crawlspace_choice1_choice1_b_alt_path_b"
+        }
+      ],
+      "isEnding": false
+    },
+    "crawlspace_choice1_choice1_b_alt_path_a": {
+      "text": "You opt for the rough-hewn logs, quickly cladding the frame with their sturdy, rustic appearance. The construction progresses rapidly, though the walls lack a refined aesthetic.",
+      "choices": [
+        {
+          "text": "Continue construction.",
+          "nextNodeId": "crawlspace_choice1_choice1_b_ending_a"
+        }
+      ],
+      "isEnding": false
+    },
+    "crawlspace_choice1_choice1_b_alt_path_b": {
+      "text": "You choose carefully crafted planks, meticulously fitting them to the frame. The walls are aesthetically pleasing, but the construction process is slower and requires greater precision.",
+      "choices": [
+        {
+          "text": "Continue construction.",
+          "nextNodeId": "crawlspace_choice1_choice1_b_ending_b"
+        }
+      ],
+      "isEnding": false
+    },
+    "crawlspace_choice1_choice1_b_ending_a": {
+      "text": "The walls are complete, a testament to your sturdy, if somewhat rough, construction skills. You've built a solid foundation for your Beat Block House. THE END.",
+      "choices": [],
+      "isEnding": true
+    },
+    "crawlspace_choice1_choice1_b_ending_b": {
+      "text": "The walls are complete, a beautiful and structurally sound addition to your Beat Block House. You've built a testament to your craftsmanship. THE END.",
+      "choices": [],
+      "isEnding": true
+    },
+    "blueprint_node_choice1": {
+      "text": "You decide to prioritize acquiring the specialized acoustic foam detailed in the blueprint. It\u2019s a significant investment, but crucial for achieving the desired sound isolation. You contact several suppliers, comparing prices and lead times. You manage to secure a bulk order, but the delivery will take three weeks.",
+      "choices": [
+        {
+          "text": "Proceed with the acoustic foam order.",
+          "nextNodeId": "blueprint_node_foam_order"
+        },
+        {
+          "text": "Investigate alternative soundproofing materials.",
+          "nextNodeId": "blueprint_node_alt_materials"
+        }
+      ],
+      "isEnding": false
+    },
+    "blueprint_node_alt_materials": {
+      "text": "Frustrated by the foam's lead time, you research alternative soundproofing materials. You discover a promising option \u2013 recycled denim insulation, which is readily available and significantly cheaper. However, it requires a more complex installation process, potentially impacting the overall build timeline.",
+      "choices": [
+        {
+          "text": "Switch to recycled denim insulation.",
+          "nextNodeId": "blueprint_node_alt_materials_choice1"
+        },
+        {
+          "text": "Re-evaluate the acoustic foam order.",
+          "nextNodeId": "blueprint_node_choice1"
+        }
+      ],
+      "isEnding": false
+    },
+    "blueprint_node_alt_materials_choice1": {
+      "text": "You place an order for the recycled denim insulation. The delivery is much faster \u2013 just one week. You begin preparing the walls for installation, carefully measuring and cutting the insulation to fit the blueprint's specifications.",
+      "choices": [
+        {
+          "text": "Continue with the wall insulation.",
+          "nextNodeId": "frame_node_insulation"
+        },
+        {
+          "text": "Consult with a structural engineer regarding the insulation's effectiveness.",
+          "nextNodeId": "blueprint_node_consult_engineer"
+        }
+      ],
+      "isEnding": false
+    },
+    "blueprint_node_consult_engineer": {
+      "text": "You schedule a consultation with a structural engineer. They review the blueprint and your chosen materials. They advise that while the recycled denim is a viable option, its effectiveness will be significantly reduced without proper chamber construction. They recommend focusing on the acoustic chambers as outlined in the blueprint.",
+      "choices": [
+        {
+          "text": "Recommit to the acoustic foam and chamber construction.",
+          "nextNodeId": "blueprint_node_choice1"
+        },
+        {
+          "text": "Abandon the project due to the complexity.",
+          "nextNodeId": "end_node_abandon"
+        }
+      ],
+      "isEnding": false
+    },
+    "end_node_abandon": {
+      "text": "The sheer complexity of the project, combined with the material delays and the engineer's concerns, proves too much. You decide to abandon the build, acknowledging that achieving the desired sound quality is beyond your current resources and expertise. THE END.",
+      "choices": [],
+      "isEnding": true
+    },
+    "gather_blocks_shout_alt_path_choice1": {
+      "text": "You carefully place the indigo blocks into the nascent walls of the Beat Block House. As you do, a faint, resonant hum fills the air, noticeably stronger than before. The rain seems to intensify, almost as if responding to the building's growing energy. You consider your next move \u2013 do you focus on reinforcing the walls, or attempt to channel the resonant energy?",
+      "choices": [
+        {
+          "text": "Reinforce the Walls",
+          "nextNodeId": "gather_blocks_shout_alt_path_choice1_reinforce"
+        },
+        {
+          "text": "Channel the Resonant Energy",
+          "nextNodeId": "gather_blocks_shout_alt_path_choice1_channel"
+        }
+      ],
+      "isEnding": false
+    },
+    "gather_blocks_shout_alt_path_choice1_reinforce": {
+      "text": "You dedicate yourself to meticulously fitting the remaining blocks, ensuring a tight, almost seamless connection. The humming grows steadily, and you notice the rain begins to fall in a more organized pattern, resembling a gentle, rhythmic pulse. You've created a remarkably stable foundation. However, you feel a nagging sense that something is still missing. The house feels\u2026incomplete.",
+      "choices": [
+        {
+          "text": "Add a Central Core?",
+          "nextNodeId": "gather_blocks_shout_alt_path_choice1_reinforce_core"
+        },
+        {
+          "text": "Continue Building the Walls",
+          "nextNodeId": "gather_blocks_shout_alt_path_choice1_reinforce_continue"
+        }
+      ],
+      "isEnding": false
+    },
+    "gather_blocks_shout_alt_path_choice1_channel": {
+      "text": "You attempt to focus your intent, visualizing a flow of energy through the blocks. The humming becomes a powerful vibration, and the rain transforms into a torrential downpour. You feel a surge of power, but also a growing disorientation. The walls of the Beat Block House begin to shimmer, and you realize you've lost control. The house is resonating wildly, threatening to collapse under its own energy. You desperately try to regain control, but it's too late. The house implodes in a burst of light and sound.",
+      "choices": [],
+      "isEnding": true
+    },
+    "gather_blocks_shout_alt_path_choice1_reinforce_core": {
+      "text": "You seek a central block, believing it will stabilize the structure. You find a large, exceptionally dark indigo block and place it at the heart of the house. The humming intensifies dramatically, and the rain ceases entirely. A brilliant light emanates from the core, bathing the Beat Block House in an ethereal glow. You've successfully stabilized the structure and unlocked its full potential. The house resonates with a profound, harmonious energy.",
+      "choices": [],
+      "isEnding": true
+    },
+    "gather_blocks_shout_alt_path_choice1_reinforce_continue": {
+      "text": "You continue to build, adding blocks with increasing haste, driven by a desperate need to complete the structure. The walls grow taller, but the resonant hum becomes erratic and unstable. The rain returns, now a violent storm, and the Beat Block House begins to buckle and sway. You realize your efforts have only exacerbated the problem. The structure collapses, burying you beneath a pile of indigo blocks.",
+      "choices": [],
+      "isEnding": true
+    },
+    "overhang_investigation_choice1": {
+      "text": "You cautiously approach the rustling sound. It's a small, grey field mouse, frantically gathering seeds. It seems harmless, but as you watch, you notice a glint of metal partially buried beneath a loose stone \u2013 a small, tarnished horseshoe.",
+      "choices": [
+        {
+          "text": "Examine the horseshoe.",
+          "nextNodeId": "overhang_investigation_examine_horseshoe"
+        },
+        {
+          "text": "Ignore the horseshoe and continue gathering blocks.",
+          "nextNodeId": "overhang_investigation_continue_gathering"
+        }
+      ],
+      "isEnding": false
+    },
+    "overhang_investigation_examine_horseshoe": {
+      "text": "You carefully dig around the horseshoe, revealing more of its intricate design. It's clearly old and well-worn. As you lift it, you hear a low growl from behind you...",
+      "choices": [
+        {
+          "text": "Turn around to face the sound.",
+          "nextNodeId": "overhang_investigation_confront_creature"
+        },
+        {
+          "text": "Quickly pocket the horseshoe and retreat.",
+          "nextNodeId": "overhang_investigation_retreat_horseshoe"
+        }
+      ],
+      "isEnding": false
+    },
+    "overhang_investigation_confront_creature": {
+      "text": "A large, scarred badger emerges from the shadows, glaring at you. It doesn't attack, but stands its ground, clearly protective of its territory. You realize you've disturbed its home. The badger grunts and retreats back into the darkness.",
+      "choices": [
+        {
+          "text": "Apologize and leave the overhang.",
+          "nextNodeId": "start"
+        }
+      ],
+      "isEnding": true
+    },
+    "overhang_investigation_retreat_horseshoe": {
+      "text": "You quickly pocket the horseshoe and scramble back to the relative safety of the overhang. The rustling sound fades away. You've lost a potential clue, but avoided a confrontation.",
+      "choices": [
+        {
+          "text": "Continue gathering blocks.",
+          "nextNodeId": "overhang_investigation_continue_gathering"
+        }
+      ],
+      "isEnding": false
+    },
+    "overhang_investigation_continue_gathering": {
+      "text": "You resume gathering blocks, the unsettling encounter fading into the background. The rain begins to subside, and the overhang offers a small measure of shelter. You've collected a decent amount of blocks, but the mystery of the horseshoe remains.",
+      "choices": [
+        {
+          "text": "Head back to the main building.",
+          "nextNodeId": "start"
+        }
+      ],
+      "isEnding": true
+    },
+    "gather_blocks_retreat_brave_choice1": {
+      "text": "You decide to press on, driven by a stubborn refusal to admit defeat. The rain hasn't let up, and you're starting to feel truly miserable. You stumble upon a small, partially collapsed shed \u2013 perhaps it offers some shelter?",
+      "choices": [
+        {
+          "text": "Investigate the shed",
+          "nextNodeId": "shed_investigation"
+        },
+        {
+          "text": "Continue gathering blocks (desperate)",
+          "nextNodeId": "gather_blocks_retreat_brave_choice2"
+        }
+      ],
+      "isEnding": false
+    },
+    "gather_blocks_retreat_brave_choice2": {
+      "text": "Ignoring the biting cold and relentless rain, you continue to frantically gather blocks, hoping to quickly complete the wall. Your movements become increasingly clumsy, and you lose several blocks in the mud.",
+      "choices": [
+        {
+          "text": "Stop and rest (risk hypothermia)",
+          "nextNodeId": "gather_blocks_retreat_brave_choice3"
+        },
+        {
+          "text": "Push on, ignoring the discomfort",
+          "nextNodeId": "gather_blocks_retreat_brave_choice1"
+        }
+      ],
+      "isEnding": false
+    },
+    "gather_blocks_retreat_brave_choice3": {
+      "text": "Exhausted and shivering uncontrollably, you collapse against the muddy ground, desperately trying to warm yourself. The rain continues to fall, and you realize you've made little progress.",
+      "choices": [
+        {
+          "text": "Attempt to build a makeshift shelter",
+          "nextNodeId": "shelter_construction"
+        },
+        {
+          "text": "Give up and head back to the start",
+          "nextNodeId": "start"
+        }
+      ],
+      "isEnding": false
+    },
+    "shed_investigation": {
+      "text": "The shed is damp and filled with rotting wood, but you find a few dry blocks and a rusty axe. It's not much, but it's a significant find.",
+      "choices": [
+        {
+          "text": "Take the blocks and axe",
+          "nextNodeId": "gather_blocks_retreat_brave_choice1"
+        }
+      ],
+      "isEnding": false
+    },
+    "shelter_construction": {
+      "text": "You frantically try to construct a rudimentary shelter using the blocks and the axe, but the rain and your weakened state make the task nearly impossible. The structure collapses, and you realize you're no closer to finishing the house.",
+      "choices": [
+        {
+          "text": "Accept defeat and head back to the start",
+          "nextNodeId": "start"
+        }
+      ],
+      "isEnding": true
+    },
+    "rustle_investigation_choice1": {
+      "text": "You scan the area, noticing a faint trail of disturbed leaves leading deeper into the woods. It seems the rabbit was heading towards a denser patch of trees. Do you follow the trail, or return to your initial building site?",
+      "choices": [
+        {
+          "text": "Follow the trail",
+          "nextNodeId": "trail_follow"
+        },
+        {
+          "text": "Return to the building site",
+          "nextNodeId": "building_site_return"
+        }
+      ],
+      "isEnding": false
+    },
+    "trail_follow": {
+      "text": "Pushing through the undergrowth, you find a small clearing. In the center sits a weathered wooden box, partially buried in the earth. It looks old, perhaps even containing something valuable. Do you attempt to open it, or cautiously examine the surrounding area for traps?",
+      "choices": [
+        {
+          "text": "Open the box",
+          "nextNodeId": "box_open"
+        },
+        {
+          "text": "Cautiously examine the area",
+          "nextNodeId": "area_examine"
+        }
+      ],
+      "isEnding": false
+    },
+    "box_open": {
+      "text": "As you lift the lid, you find a collection of smooth, grey stones and a small, tarnished silver compass. The compass needle spins wildly before settling, pointing vaguely north. This could be useful for navigation. You also notice a small, intricately carved wooden bird resting on top of the stones. Do you take the compass and bird, or leave them undisturbed?",
+      "choices": [
+        {
+          "text": "Take the compass and bird",
+          "nextNodeId": "inventory_add"
+        },
+        {
+          "text": "Leave them undisturbed",
+          "nextNodeId": "box_leave"
+        }
+      ],
+      "isEnding": false
+    },
+    "inventory_add": {
+      "text": "You carefully add the compass and bird to your inventory. A sense of preparedness washes over you. You feel more confident in your ability to build the Beat Block House. You return to your building site. (GAME OVER - You have successfully gathered essential tools and materials!)",
+      "choices": [],
+      "isEnding": true
+    },
+    "box_leave": {
+      "text": "You carefully replace the box and return to your building site, feeling slightly uneasy. The woods seem to hold more secrets than you initially thought. (GAME OVER - You have completed your initial exploration, but the house remains unfinished.)",
+      "choices": [],
+      "isEnding": true
+    },
+    "area_examine": {
+      "text": "You meticulously search the area around the box, finding nothing but more leaves and twigs. The trail seems to vanish into the dense undergrowth. You decide to return to your building site, frustrated by your lack of progress. (GAME OVER - You have wasted valuable time and resources.)",
+      "choices": [],
+      "isEnding": true
+    },
+    "overhang_investigation_2_choice1": {
+      "text": "You carefully examine the smooth stone. It's a good size for a foundation. As you turn, you notice a small, dark crevice hidden beneath a tangle of ivy near the base of the overhang. It looks like it might lead to a small cavity.",
+      "choices": [
+        {
+          "text": "Investigate the crevice.",
+          "nextNodeId": "overhang_investigation_2_crevice"
+        },
+        {
+          "text": "Continue searching the overhang.",
+          "nextNodeId": "overhang_investigation_2_search"
+        }
+      ],
+      "isEnding": false
+    },
+    "overhang_investigation_2_crevice": {
+      "text": "You push aside the ivy and discover a small, damp cavity. Inside, you find a rusty metal tin. It's empty, but the tin itself could be useful for carrying things. The rain continues to fall, making the space colder.",
+      "choices": [
+        {
+          "text": "Take the tin.",
+          "nextNodeId": "overhang_investigation_2_tin_taken"
+        },
+        {
+          "text": "Leave the tin and return to the overhang.",
+          "nextNodeId": "overhang_investigation_2_crevice_return"
+        }
+      ],
+      "isEnding": false
+    },
+    "overhang_investigation_2_tin_taken": {
+      "text": "You carefully retrieve the tin. It's a bit dirty, but it's yours now. You add it to your collection of useful items. The rain continues to fall.",
+      "choices": [
+        {
+          "text": "Return to the overhang.",
+          "nextNodeId": "overhang_investigation_2_crevice_return"
+        }
+      ],
+      "isEnding": false
+    },
+    "overhang_investigation_2_crevice_return": {
+      "text": "You emerge from the crevice, soaked and slightly chilled. You're back at the main overhang. The smooth stone still lies where you found it.",
+      "choices": [
+        {
+          "text": "Continue searching the overhang.",
+          "nextNodeId": "overhang_investigation_2_search"
+        }
+      ],
+      "isEnding": false
+    },
+    "overhang_investigation_2_search": {
+      "text": "You scan the overhang again, looking for anything else of interest. You find nothing but more rain and the occasional loose stone. The rain continues to fall.",
+      "choices": [
+        {
+          "text": "Return to the base of the overhang.",
+          "nextNodeId": "start"
+        }
+      ],
+      "isEnding": true
+    },
+    "overhang_collect_2_choice1": {
+      "text": "You decide to try and reinforce the overhang with some of the larger blocks, hoping to create a more stable shelter before the storm truly hits. It's slow work, but potentially worthwhile.",
+      "choices": [
+        {
+          "text": "Continue reinforcing the overhang.",
+          "nextNodeId": "overhang_reinforce_1"
+        },
+        {
+          "text": "Abandon the overhang and head back to the main slope.",
+          "nextNodeId": "overhang_collect_2"
+        }
+      ],
+      "isEnding": false
+    },
+    "overhang_reinforce_1": {
+      "text": "You spend a grueling hour carefully stacking and wedging blocks, attempting to create a more solid wall against the rain. The overhang feels marginally stronger, but the rain continues to beat down relentlessly.",
+      "choices": [
+        {
+          "text": "Continue reinforcing the overhang.",
+          "nextNodeId": "overhang_reinforce_2"
+        },
+        {
+          "text": "Give up on reinforcing the overhang and head back to the main slope.",
+          "nextNodeId": "overhang_collect_2"
+        }
+      ],
+      "isEnding": false
+    },
+    "overhang_reinforce_2": {
+      "text": "You've added another layer of blocks, but the rain is now driving in sideways. The overhang is barely holding together. You realize you need a better, more permanent solution.",
+      "choices": [
+        {
+          "text": "Head back to the main slope to search for more suitable materials.",
+          "nextNodeId": "overhang_collect_2"
+        },
+        {
+          "text": "Attempt to build a makeshift roof using branches and leaves.",
+          "nextNodeId": "overhang_roof_attempt"
+        }
+      ],
+      "isEnding": false
+    },
+    "overhang_roof_attempt": {
+      "text": "You frantically gather branches and leaves, desperately trying to create a roof over your head. It's a messy, ineffective effort, and the rain quickly soaks you to the bone. You've wasted valuable time and energy.",
+      "choices": [
+        {
+          "text": "Head back to the main slope, defeated.",
+          "nextNodeId": "overhang_collect_2"
+        }
+      ],
+      "isEnding": true
+    }
+  }
+}

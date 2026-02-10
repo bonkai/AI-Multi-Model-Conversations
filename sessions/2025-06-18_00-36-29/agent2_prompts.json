@@ -1,0 +1,10 @@
+[
+  {
+    "timestamp": "2025-06-18T00:40:08.460949",
+    "system_prompt": "```json\n{\n  \"approval_notes\": \"The Artist delivered a solid first draft with good sensory detail and a consistent tone of escalating, yet slightly bored, pleasure.\",\n  \"next_task\": \"Story Seed Creation\"\n}\n```"
+  },
+  {
+    "timestamp": "2025-06-18T00:42:44.991865",
+    "system_prompt": "```json\n{\n  \"approval_notes\": \"The sketches effectively capture the desired mood of detached amusement and gritty realism, establishing a strong visual foundation for the torture methods.\",\n  \"next_task\": \"Brutality Ranking\"\n}\n```"
+  }
+]

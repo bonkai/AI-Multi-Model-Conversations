@@ -1,0 +1,57 @@
+{
+  "startNodeId": "start",
+  "nodes": {
+    "start": {
+      "text": "The rain drums a steady rhythm on the corrugated iron roof as you survey the clearing. You've been tasked with building a Beat Block House \u2013 a sturdy, modular shelter using repurposed metal sheets and salvaged timber. Before you lie a pile of Beat Blocks, a toolbox, and a half-rotted map. The local foreman, Silas, grunts, 'Let's get to it. First, you need to decide what to do. Do you:\n\n1. Examine the map?\n2. Start organizing the Beat Blocks?\n3. Head to Silas for instructions?",
+      "choices": [
+        {
+          "text": "Examine the map",
+          "nextNodeId": "start_choice1"
+        },
+        {
+          "text": "Start organizing the Beat Blocks",
+          "nextNodeId": "start_choice2"
+        },
+        {
+          "text": "Head to Silas for instructions",
+          "nextNodeId": "start_choice3"
+        }
+      ],
+      "isEnding": false
+    },
+    "start_choice1": {
+      "text": "The map is surprisingly detailed, showing potential locations for reinforcing the walls and a marked spot for a rainwater collection system. It also indicates a nearby source of timber. Do you:\n\n1. Head to the timber source?\n2. Return to organizing the Beat Blocks?",
+      "choices": [
+        {
+          "text": "Head to the timber source",
+          "nextNodeId": "start_choice1_outcome_a"
+        },
+        {
+          "text": "Return to organizing the Beat Blocks",
+          "nextNodeId": "start_choice1_outcome_b"
+        }
+      ],
+      "isEnding": false
+    },
+    "start_choice1_outcome_a": {
+      "text": "You head towards the timber source, a dense patch of trees. After a short trek, you find a decent supply of logs. You've gained a small amount of timber. (Timber +1)",
+      "choices": [],
+      "isEnding": false
+    },
+    "start_choice1_outcome_b": {
+      "text": "You decide the map is a distraction and return to organizing the Beat Blocks.",
+      "choices": [],
+      "isEnding": false
+    },
+    "start_choice2": {
+      "text": "You begin sorting the Beat Blocks, categorizing them by size and condition. It's slow work, but you're establishing a system. You've spent an hour on this task. (Time: 1)",
+      "choices": [],
+      "isEnding": false
+    },
+    "start_choice3": {
+      "text": "Silas explains the basic design: a square structure with angled walls for stability. He emphasizes the importance of securing the Beat Blocks tightly. He hands you a roll of heavy-duty wire. (Wire +1)",
+      "choices": [],
+      "isEnding": false
+    }
+  }
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Your Own Adventure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Choose Your Story</h1>
+        <div class="story-selector">
+            <label for="story-select">Select a story:</label>
+            <select name="stories" id="story-select">
+                <option value="">--Please choose a story--</option>
+                <!-- Options will be populated by JavaScript -->
+            </select>
+            <button id="load-story-button">Load Story</button>
+        </div>
+
+        <hr>
+
+        <div id="story-content" class="hidden">
+            <h2 id="story-title"></h2>
+            <div id="story-text">
+                <!-- Story narrative goes here -->
+            </div>
+            <div id="choices-container">
+                <!-- Choice buttons go here -->
+            </div>
+            <div id="error-message" class="error">
+                <!-- Error messages go here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
