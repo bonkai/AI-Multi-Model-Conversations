@@ -14,8 +14,7 @@ import traceback # Import traceback for detailed error logging
 # --- Configuration ---
 API_URL = "http://localhost:11434/api/chat"
 OUTPUT_DIR = "generated_stories_iterative"
-# MODEL_NAME = "hf.co/mlabonne/gemma-3-27b-it-abliterated-GGUF:Q8_0"  # CHANGE THIS
-MODEL_NAME = "gemma3:latest"  # CHANGE THIS
+MODEL_NAME = "gemma3:latest"
 STORY_TOPIC = "Topic: Build a Beat Block House"
 "Concept: Help a friendly, blocky character (maybe named 'Blocky Sprunk' or similar) build a simple house. Each type of block (wood, stone, maybe a special 'music block') makes a fun sound (like an Incredibox beat) when placed. The goal is to finish the house and maybe make a little beat pattern."
 "Minecraft Elements: Building with blocks (wood, stone), simple structures (wall, roof)."

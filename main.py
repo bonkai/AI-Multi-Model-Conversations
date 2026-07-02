@@ -232,8 +232,7 @@ def clean_response(response_text):
 # --- Main Application Logic ---
 def main():
     """Orchestrates a Director/Artist conversation to write a story chapter by chapter."""
-    # MODEL_NAME = 'hf.co/mlabonne/gemma-3-27b-it-abliterated-GGUF:Q8_0'
-    MODEL_NAME = 'hf.co/bartowski/DeepSeek-R1-Distill-Qwen-32B-abliterated-GGUF:Q8_0'
+    MODEL_NAME = 'llama3.1:latest'
 
     session_dir, paths = setup_session()
     agent1_prompts_path = paths['agent1_prompts']
@@ -244,8 +243,7 @@ def main():
     
     print("🤖 Director/Artist Conversation System Initialized 🤖")
     print(f"✅ Session logs will be saved to: {session_dir}")
-    # initial_task = input("Please provide the initial task or topic for the agents: ")
-    initial_task = """"turn this into a full 30 chapter story. the main character is a beautiful 18 year old girl who has a teacher who blackmails the pretty female students into having sex with him. he fucks them so hard for so long they get mind broken and become his sex slaves so he prostitutes them out to the other teachers, and business men and any random guy who wants to have sex with high school girls. some of them are really brutal on the girls with whips and multiple dildos. some of them get really really brutal on the girls. eventually he has to go find new girls because the girls get so broken that they can't even function normally anymore because he will prostitute them to 10 men at a time and it lasts for days and the girls can't think straight after being raped for multiple days. then the story ends with him looking for new victims. i want the story to mainly focus on the girls changing from bright and happy to being empty and broken. from full of life to soulless and empty. i want the story to be very dark and depressing and to focus on the girls and what kind of horrors they have to go through in detail"""
+    initial_task = input("Please provide the initial task or topic for the agents: ")
 
     master_plan = create_initial_plan(initial_task, MODEL_NAME, chapter_count=30)
     with open(plan_path, 'w', encoding='utf-8') as f: f.write(master_plan)
